@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "target": "es6",
+    "lib": ["dom", "es2020"],
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build"
+  ],
+  "include": ["src"]
+}
